@@ -1,0 +1,119 @@
+body{
+	background: url("images/background.png");
+	font-size: 8pt;
+	font-family: Verdana, Tahoma, sans-serif;
+	padding:0;
+	margin: 0;
+}
+
+.banner{
+	background: url("images/bannerbackground.png") repeat-x;
+	height: 50px;
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+	font-size: 24pt;
+	font-weight: bold;
+	font-family: Tahoma, Verdana, sans-serif;
+}
+
+#content{
+	width: 800px;
+	margin:0 auto;
+	border: 4px gray solid;
+	clear: both;
+}
+
+.right{
+	float: right;
+	width: 250px;
+	background-color: #A2B964;
+}
+
+.left{
+	float: right;
+	width: 550px;
+}
+
+#rotten{
+	background: url("images/rottenbackground.png") repeat-x;
+	height: 83px;
+}
+
+#rotten img{
+	float: left;
+}
+
+#retial{
+	font-weight: bold;
+	font-size: 48pt;
+	color: red;
+	display: inline-block;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+#review{
+	color: white;
+	font-weight: normal;
+}
+
+#left-content,#right-content{
+	width: 47%;
+	padding-left: 2%;
+	float: left;
+}
+
+.quote-box{
+	margin-top: 1em;
+	background-color: #E1D697;
+	border: 2px gray solid;
+	padding: 8px;
+	overflow: hidden;
+}
+
+q{
+	font-size: 8pt;
+	font-weight: bold;
+}
+
+.quote-box img, .person-info img{
+	float: left;
+	margin-right: 5px;
+}
+
+.person-info{
+	margin-bottom: 3em;
+}
+
+.person-info span{
+	font-style: italic;
+}
+
+#overview{
+	padding-right: 10px;
+	padding-left: 10px;
+	font-family: Arial, sans-serif;
+}
+
+#overview dt{
+	font-weight: bold;
+	margin-top:1em;
+}
+
+.link{
+	float: right;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+}
+
+#bottom p{
+	clear: both;
+	text-align: center;
+	background-color: #A2B964;
+	margin: 0;
+	padding: 5px;
+}
